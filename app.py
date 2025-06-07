@@ -7,7 +7,7 @@ import base64
 
 st.set_page_config(page_title="EuroSAT Классификация", page_icon="🛰️", layout="wide")
 
-BACKEND_URL = "http://localhost:8080"
+BACKEND_URL = "https://eurosat-app.onrender.com"
 
 # Session state
 if 'results' not in st.session_state:
