@@ -1,5 +1,5 @@
 # Core dependencies
-tensorflow>=2.10.0
+tensorflow
 numpy==1.26.4
 pillow>=9.0.0
 matplotlib>=3.5.0
