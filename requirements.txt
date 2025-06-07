@@ -1,6 +1,6 @@
 # Core dependencies
-tensorflow==2.18.0  # Изменено с 2.15.0
-numpy>=1.26.0,<2.0  # Важно для совместимости с TF 2.18
+tensorflow
+
 pillow>=9.0.0
 matplotlib>=3.5.0
 
