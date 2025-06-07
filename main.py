@@ -22,7 +22,7 @@ classifier = None
 async def startup():
     """Инициализация при запуске"""
     global classifier
-    classifier = EuroSATClassifier(MODEL_PATH, patch_size=64, batch_size=32)
+    classifier = EuroSATClassifier(MODEL_PATH, patch_size=64, batch_size=4)
     classifier.load_model()
     print("Модель загружена и прогрета")
 
